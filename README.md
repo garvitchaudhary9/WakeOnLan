@@ -23,7 +23,7 @@ gcc -Wall -o wol WakeOnLan/main.c
 
 How To run:
 
-Usage: ./main.c [-r remoteaddress] [-f filename1, ...|mac1, ...]
+Usage: ./wol [-r remoteaddress] [-f filename1, ...|mac1, ...]
 
 You can either pass some MAC addresses or you can pass with the option f some filenames contains a MAC address on each line to wake up.
 With the option r you can specify the remote ip address. The default value is 255.255.255.255 for a broadcast call.
